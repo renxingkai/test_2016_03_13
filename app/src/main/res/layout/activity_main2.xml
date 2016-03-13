@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.administrator.test_2016_03_13.Main2Activity">
+
+    <fragment
+        android:id="@+id/titlefragment2"
+        android:name="com.example.administrator.test_2016_03_13.TitleFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+    </fragment>
+
+    <FrameLayout
+        android:id="@+id/contentFragmentLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
